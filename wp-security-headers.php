@@ -9,7 +9,7 @@ Author URI: https://moveaheadmedia.com/
 */
 
 
-function toptal_wordpress_security_headers() {
+function mam_wordpress_security_headers() {
     header( 'X-XSS-Protection: 1; mode=block' );
     header( 'X-Content-Type-Options: nosniff' );
     header( 'X-Frame-Options: SAMEORIGIN' );
@@ -19,4 +19,4 @@ function toptal_wordpress_security_headers() {
 	header( 'Referrer-Policy: no-referrer-when-downgrade' );
 	header('Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(), gamepad=(), speaker-selection=(), conversion-measurement=(), focus-without-user-activation=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), sync-script=(), trust-token-redemption=(), window-placement=(), vertical-scroll=()');
 }
-add_action( 'send_headers', 'toptal_wordpress_security_headers' );
+add_action( 'send_headers', 'mam_wordpress_security_headers' );
