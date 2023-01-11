@@ -2,7 +2,7 @@
 /*
 Plugin Name: WordPress Security Headers
 Plugin URI: https://github.com/moveaheadmedia/wp-security-headers
-Description: A simple plugin to add custom headers to your site
+Description: A WordPress plugin that is designed to add security headers to your website.
 Version: 1.0.0
 Author: Ali Sal
 Author URI: https://moveaheadmedia.com/
