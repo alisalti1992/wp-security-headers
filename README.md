@@ -1,2 +1,2 @@
-# wp-security-headers
-WordPress plugin to automatically add security headers.
+# Move Ahead Media WordPress Security Headers
+a WordPress plugin to automatically add security headers.
