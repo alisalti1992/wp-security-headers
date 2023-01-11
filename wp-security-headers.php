@@ -8,7 +8,6 @@ Author: Ali Sal
 Author URI: https://moveaheadmedia.com/
 */
 
-
 function mam_wordpress_security_headers() {
 	header( 'X-XSS-Protection: 1; mode=block' );
 	header( 'X-Content-Type-Options: nosniff' );
